@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #23253A;
+    --navbar-bg: #212437;
+    --bright-bg: #FF4B57;
+    --detail-color: #596061;
+}
+
+.card-holder {
+    gap: 10px;
+    color: var(--detail-color);
+}
+
+.card-holder div {
+    margin-top: 60px;
+}
+
+.card-holder div p {
+    line-height: 2;
+}
+
+.card-holder div img {
+    margin-bottom: 15px;
+}
+
+.card-holder img {
+    width: 150px;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+}

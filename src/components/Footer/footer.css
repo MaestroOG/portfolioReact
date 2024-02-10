@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #23253A;
+    --navbar-bg: #212437;
+    --bright-bg: #FF4B57;
+    --detail-color: #596061;
+}
+
+footer {
+    background-color: var(--navbar-bg);
+    padding: 67.5px 120px;
+    color: var(--detail-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

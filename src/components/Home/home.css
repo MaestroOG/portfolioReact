@@ -1,0 +1,40 @@
+/* Variables */
+:root {
+    --primary-color: #23253A;
+    --navbar-bg: #212437;
+    --bright-bg: #FF4B57;
+    --detail-color: #596061;
+}
+
+.main-container {
+    background-color: var(--primary-color);
+    padding: 5.78rem 7.4rem;
+}
+
+.main-heading {
+    font-size: 3rem;
+    letter-spacing: normal;
+    margin: 45px 0 15px;
+}
+
+#h-diff {
+    color: var(--bright-bg);
+}
+
+.main-para {
+    color: #fff;
+    font-size: 1.1rem;
+    letter-spacing: 1.1px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    border: none;
+    outline: none;
+    background-color: var(--bright-bg);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 1rem 2.375rem;
+}

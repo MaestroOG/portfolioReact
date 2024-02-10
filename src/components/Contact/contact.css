@@ -1,0 +1,45 @@
+/* Variables */
+:root {
+    --primary-color: #23253A;
+    --navbar-bg: #212437;
+    --bright-bg: #FF4B57;
+    --detail-color: #596061;
+    --input-bg: #282A41;
+}
+
+.contact-container {
+    background-color: var(--primary-color);
+    padding: 5.78rem 7.4rem;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: var(--bright-bg);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 1rem 2.375rem;
+    margin-top: 8px;
+    width: 20%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 15px 0;
+    padding: 1rem 2.375rem;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: var(--input-bg);
+    width: 50%;
+}
+
+form input::placeholder {
+    color: var(--detail-color);
+}

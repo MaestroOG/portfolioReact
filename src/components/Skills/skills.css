@@ -1,0 +1,34 @@
+/* Variables */
+:root {
+    --primary-color: #23253A;
+    --navbar-bg: #212437;
+    --bright-bg: #FF4B57;
+    --detail-color: #596061;
+}
+
+small {
+    color: #fff;
+    position: relative;
+    left: 3px;
+}
+
+.skill-container {
+    background-color: var(--primary-color);
+    padding: 5.78rem 7.4rem;
+}
+
+.skill-heading {
+    font-size: 3rem;
+    color: var(--bright-bg);
+    position: relative;
+}
+
+.skill-heading::after {
+    content: '';
+    background-color: var(--bright-bg);
+    height: 4px;
+    width: 10%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
