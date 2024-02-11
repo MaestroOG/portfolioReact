@@ -43,3 +43,19 @@ form input {
 form input::placeholder {
     color: var(--detail-color);
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 450px) {
+    form input {
+        width: 100%;
+    }
+
+    form .btn {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding: 5.78rem 3.4rem
+    }
+}

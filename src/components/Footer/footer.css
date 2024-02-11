@@ -13,3 +13,11 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width:450px) {
+    footer {
+        padding: 67.5px 9px;
+    }
+}

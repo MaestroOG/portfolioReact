@@ -32,3 +32,15 @@ small {
     top: 80px;
     left: 0;
 }
+
+/* Media Query */
+
+@media only screen and (max-width:450px) {
+    .skill-heading::after {
+        width: 75%;
+    }
+
+    .skill-container {
+        padding: 5.78rem 3.4rem;
+    }
+}
